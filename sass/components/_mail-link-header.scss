@@ -1,0 +1,35 @@
+.icon-mail {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  transition: var(--fill-change);
+}
+
+.mail-link-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+  transition: var(--color-change);
+}
+
+.mail-link-head:hover .icon-mail,
+.mail-link-head:focus .icon-mail {
+  fill: var(--accent-color);
+}
+.mail-link-head:hover,
+.mail-link-head:focus {
+  color: var(--accent-color);
+}
+
+.mail-contact:not(:last-child) {
+  margin-right: 50px;
+}

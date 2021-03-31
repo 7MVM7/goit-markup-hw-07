@@ -1,0 +1,220 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background: #ffffff;
+}
+
+.close-modal-btn:hover .btn-close,
+.close-modal-btn:focus .btn-close {
+  fill: var(--accent-color);
+  transition: var(--fill-change);
+}
+
+.text-title {
+  display: block;
+  margin-top: 40px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+.form-field input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  margin: 0;
+  padding: 10px;
+  padding-left: 42px;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-family: var(--main-font);
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.men-icon-form {
+  position: absolute;
+ 
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+
+  transition: var(--fill-change);
+}
+
+.form-name:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-name:focus + .men-icon-form {
+  fill: var(--accent-color);
+}
+
+.form-name {
+  cursor: pointer;
+  transition: var(--border-color-change);
+}
+
+.tel-icon-form {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--fill-change);
+  cursor: pointer;
+}
+
+.form-tel {
+  cursor: pointer;
+  transition: var(--border-color-change);
+}
+
+.form-tel:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-tel:focus + .tel-icon-form {
+  fill: var(--accent-color);
+}
+
+.form-mail {
+  cursor: pointer;
+  transition: var(--border-color-change);
+}
+
+.mail-icon-form {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--fill-change);
+  cursor: pointer;
+}
+
+.form-mail:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-mail:focus + .mail-icon-form {
+  fill: var(--accent-color);
+}
+
+.textarea-form:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  transition: var(--border-color-change);
+}
+
+.check-options label {
+  margin-left: 7px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.checkbox-label::before {
+  display: block;
+  content: "";
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000000;
+  background-size: contain;
+  border-radius: 2px;
+  background-image: url("../images/vector/Vector.svg");
+  cursor: pointer;
+  transition: var(--background-color-change);
+}
+
+.checkbox-input:checked + .checkbox-label::before {
+  border-color: var(--accent-color);
+  background-origin: border-box;
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+
+.checkbox-input:focus + .checkbox-label::before {
+  box-shadow: 0 0 0 2px #2196f3;
+}
+
+.link-check {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.submit-form {
+  align-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 56px;
+  padding-right: 56px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}

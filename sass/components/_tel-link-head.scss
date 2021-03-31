@@ -1,0 +1,31 @@
+.tel-link-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+  transition: var(--color-change);
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+  transition: var(--fill-change);
+}
+
+.tel-link-head:hover .icon-tel,
+.tel-link-head:focus .icon-tel {
+  fill: var(--accent-color);
+}
+.tel-link-head:hover,
+.tel-link-head:focus {
+  color: var(--accent-color);
+}
