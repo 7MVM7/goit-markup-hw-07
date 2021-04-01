@@ -23,16 +23,16 @@
   height: 100%;
   background-color: var(--white-color);
   transition: var(--border-color-change);
-}
 
-.link-icon-customers:hover .customers-svg,
-.link-icon-customers:focus .customers-svg {
-  fill: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 
-.link-icon-customers:hover,
-.link-icon-customers:focus {
-  border-color: var(--accent-color);
+  &:hover .customers-svg,
+  &:focus .customers-svg {
+    fill: var(--accent-color);
+  }
 }
 
 .icon-customers-list {
@@ -42,12 +42,12 @@
 .customers-item {
   width: 170px;
   height: 90px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .customers-svg {
   fill: #afb1b8;
   transition: var(--fill-change);
-}
-
-.customers-item:not(:last-child) {
-  margin-right: 30px;
 }

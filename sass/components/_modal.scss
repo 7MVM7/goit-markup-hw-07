@@ -73,11 +73,11 @@
   align-items: center;
   letter-spacing: 0.03em;
   color: var(--white-color);
-}
 
-.mailing-input:hover,
-.mailing-input:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .bt-mail {

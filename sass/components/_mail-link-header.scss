@@ -19,17 +19,23 @@
   letter-spacing: 0.02em;
   color: var(--gray-color);
   transition: var(--color-change);
-}
 
-.mail-link-head:hover .icon-mail,
-.mail-link-head:focus .icon-mail {
-  fill: var(--accent-color);
-}
-.mail-link-head:hover,
-.mail-link-head:focus {
-  color: var(--accent-color);
+  &:hover .icon-mail,
+  &:focus .icon-mail {
+    fill: var(--accent-color);
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .mail-contact:not(:last-child) {
   margin-right: 50px;
+}
+
+.contact-head {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }

@@ -48,19 +48,19 @@
   border-radius: 50%;
   fill: #afb1b8;
   transition: var(--background-color-change);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  &:hover .icon-social,
+  &:focus .icon-social {
+    fill: var(--white-color);
+  }
 }
 
 .icon-social {
   transition: var(--fill-change);
-}
-.icon-social-link:hover,
-.icon-social-link:focus {
-  background-color: var(--accent-color);
-}
-
-.icon-social-link:hover .icon-social,
-.icon-social-link:focus .icon-social {
-  fill: var(--white-color);
 }
 
 .position {

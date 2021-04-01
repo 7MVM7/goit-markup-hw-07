@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@import "./variables";
 @import "../base/common";
 @import "../utils/vissually-hidden";
 @import "../base/container";
@@ -12,6 +12,9 @@
 @import "../components/mail-link-header";
 @import "../components/tel-link-head";
 
-@import "../layout/potrfolio-card";
 @import "../components/portfolio-filter";
+@import "../layout/potrfolio-card";
+
 @import "../components/cotacts";
+
+@import "../components/modal";

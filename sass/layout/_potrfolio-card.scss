@@ -12,6 +12,12 @@
   justify-content: center;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .overlay-portfolio-list {
@@ -71,10 +77,4 @@
   font-size: 16px;
   line-height: 1.87;
   color: var(--gray-color);
-}
-
-.card-foto:hover,
-.card-foto:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }

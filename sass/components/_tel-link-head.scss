@@ -11,6 +11,15 @@
   letter-spacing: 0.02em;
   color: var(--gray-color);
   transition: var(--color-change);
+
+  &:hover .icon-tel,
+  &:focus .icon-tel {
+    fill: var(--accent-color);
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .icon-tel {
@@ -19,13 +28,4 @@
   margin-right: 10px;
   fill: #757575;
   transition: var(--fill-change);
-}
-
-.tel-link-head:hover .icon-tel,
-.tel-link-head:focus .icon-tel {
-  fill: var(--accent-color);
-}
-.tel-link-head:hover,
-.tel-link-head:focus {
-  color: var(--accent-color);
 }

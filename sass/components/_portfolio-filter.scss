@@ -11,10 +11,12 @@
 .element-button {
   color: var(--secondary-color);
   background: #f5f4fa;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
-.element-button:not(:last-child) {
-  margin-right: 8px;
-}
+
 .filters {
   font-family: var(--main-font);
   font-weight: 500;
@@ -28,18 +30,17 @@
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+  cursor: pointer;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filters:hover,
-.filters:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: floralwhite;
-  background: var(--accent-color);
-}
-.filters {
-  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: floralwhite;
+    background: var(--accent-color);
+  }
 }

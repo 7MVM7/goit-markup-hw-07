@@ -53,16 +53,16 @@ img {
   border-bottom: 1px solid #ececec;
 } */
 
- /* .visually-hidden {
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  /* clip: rect(1px, 1px, 1px, 1px);
+/* clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}  */ */
+}  */
 /* .title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -843,7 +843,7 @@ img {
   width: 100%;
   height: 100%;
   /* overflow: scroll; */
-  /* background: rgba(33, 150, 243, 0.9);
+/* background: rgba(33, 150, 243, 0.9);
   padding-top: 63px;
   padding-right: 24px;
   padding-bottom: 63px;
@@ -855,7 +855,7 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff; */
 
-  /* transform: translateY(100%);
+/* transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -895,7 +895,7 @@ img {
 .card-foto:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-} */ 
+} */
 
 /* =================END MAIN SEACTION===================*/
 
@@ -977,7 +977,7 @@ img {
 
 .form-name:focus + .men-icon-form {
   fill: var(--accent-color);
-} */ */
+} */
 
 /* .form-name {
   cursor: pointer;
