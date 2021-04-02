@@ -278,18 +278,12 @@ img {
   line-height: 1.87;
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-.modal-btn {
-  cursor: pointer;
-}
-
-.modal-btn {
   margin-top: 30px;
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
+  cursor: pointer;
 }
 
 .advantages {
