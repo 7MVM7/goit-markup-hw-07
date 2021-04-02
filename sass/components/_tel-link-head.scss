@@ -12,8 +12,8 @@
   color: var(--gray-color);
   transition: var(--color-change);
 
-  &:hover .icon-tel,
-  &:focus .icon-tel {
+  &:hover .contact-head__icon-tel,
+  &:focus .contact-head__icon-tel {
     fill: var(--accent-color);
   }
   &:hover,
@@ -22,7 +22,7 @@
   }
 }
 
-.icon-tel {
+.contact-head__icon-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;

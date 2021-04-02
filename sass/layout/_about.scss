@@ -1,20 +1,19 @@
 .about {
   padding-bottom: 94px;
 }
-.list-about {
+.about__list {
   margin-left: -30px;
 }
-.title-about {
+.about__title {
   margin-bottom: 50px;
 }
-.img-about {
+.about__img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-}
-.img-about {
   position: relative;
 }
-.overlay-index {
+
+.about__overlay-style {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -26,7 +25,7 @@
   width: 100%;
 }
 
-.overlay-index-title {
+.about__overlay-title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;

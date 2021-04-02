@@ -20,26 +20,27 @@
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                <a class="link logo white-logo logo-margin" href="./index.html"> <span
-                        class="logo-color">Web</span>Studio </a>
+                <a class="link logo logo__logo-white " href="./index.html"> <span
+                        class="logo__text-style">Web</span>Studio
+                </a>
                 <ul class="nav-list list">
-                    <li class="nav-item">
-                        <a href="./index.html" class="nav-link link">Студия</a>
+                    <li class="navigation__item">
+                        <a href="./index.html" class="navigation-link link">Студия</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="./portfolio.html" class="nav-link link current">Портфолио</a>
+                    <li class="navigation__item">
+                        <a href="./portfolio.html" class="navigation-link link current">Портфолио</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="" class="nav-link link">Контакты</a>
+                    <li class="navigation__item">
+                        <a href="" class="navigation-link link">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <ul class="contact-head list ">
-                <li class="mail-contact">
+                <li class="contact-head__mail-tel-style">
                     <a class=" mail-link-head link " href="mailto:info@devstudio.com">
-                        <svg class="icon-mail">
+                        <svg class="contact-head__icon-mail">
                             <use href="./images/vector/sprite.svg#icon-envelope-hover">
 
                             </use>
@@ -47,10 +48,10 @@
 
                         info@devstudio.com</a>
                 </li>
-                <li class="mail-contact">
+                <li class="contact-head__mail-tel-style">
                     <a class=" tel-link-head link " href="tel:+380961111111">
 
-                        <svg class="icon-tel">
+                        <svg class="contact-head__icon-tel">
                             <use href="./images/vector/sprite.svg#icon-smartphone">
 
                             </use>
@@ -65,50 +66,54 @@
 
     </header>
 
-    <main>
-        <section class="main-port">
+    <main class="main">
+        <section class="main__section">
             <div class="container ">
                 <h1 class="visually-hidden">Портфолио</h1>
-                <ul class="list center-button">
-                    <li class="element-button">
-                        <button type="button" class="filters ">
+
+                <ul class="list main__button-center">
+
+                    <li class="main__button-element">
+                        <button type="button" class="main__filters ">
                             Все
                         </button>
 
                     </li>
-                    <li class="element-button">
-                        <button type="button" class="filters ">
+                    <li class="main__button-element">
+                        <button type="button" class="main__filters">
                             Веб-сайты
                         </button>
 
                     </li>
-                    <li class="element-button">
-                        <button type="button" class="filters ">
+                    <li class="main__button-element">
+                        <button type="button" class="main__filters ">
                             Приложения
                         </button>
 
                     </li>
-                    <li class="element-button">
-                        <button type="button" class="filters ">
+                    <li class="main__button-element">
+                        <button type="button" class="main__filters ">
                             Дизайн
                         </button>
 
                     </li>
-                    <li class="element-button">
+                    <li class="main__button-element">
 
-                        <button type="button" class="filters ">
+                        <button type="button" class="main__filters ">
                             Маркетинг
                         </button>
 
                     </li>
                 </ul>
-                <ul class="list card-set">
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
-                            <div class="overlay-portfolio-list">
+
+                <ul class="list main__card-set">
+
+                    <li class=" main__card-foto">
+                        <a class="link main__card-link " href="">
+                            <div class="main__overlay-portfolio">
                                 <img src="./images/portfolio/img.jpg" alt="в ноутбуке открыто вебсайт" width="370"
                                     height="294" />
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -117,11 +122,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Технокряк
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Веб-сайт
                                 </p>
 
@@ -129,13 +134,13 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
                                 <img src="./images/portfolio/img-1.jpg" alt="постер с баскетболистами" width="370"
                                     height="294" />
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -145,11 +150,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Постер New Orlean vs Golden Star
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Дизайн
                                 </p>
 
@@ -157,14 +162,14 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
                                 <img src="./images/portfolio/img-2.jpg" alt="логотип ресторана" width="370"
                                     height="294" />
 
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -175,11 +180,11 @@
 
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Ресторан Seafood
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Приложение
                                 </p>
 
@@ -187,15 +192,15 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
 
                                 <img src="./images/portfolio/img-3.jpg" alt="накладные наушники" width="370"
                                     height="294" />
 
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -206,11 +211,11 @@
 
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Проект Prime
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Маркетинг
                                 </p>
 
@@ -218,15 +223,15 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
 
                                 <img src="./images/portfolio/img-4.jpg" alt="картонные коробки" width="370"
                                     height="294" />
 
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -235,11 +240,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Проект Boxes
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Приложение
                                 </p>
 
@@ -247,15 +252,15 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
 
                                 <img src="./images/portfolio/img-5.jpg" alt="моноблочный компьютер" width="370"
                                     height="294" />
 
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -263,11 +268,11 @@
 
                             </div>
 
-                            <div class="card-content">
-                                <h3 lang="en" class="photo-title">
+                            <div class="main__card-content">
+                                <h3 lang="en" class="main__title-photo">
                                     Inspiration has no Borders
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Веб-сайт
                                 </p>
 
@@ -276,13 +281,13 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
 
                                 <img src="./images/portfolio/img-6.jpg" alt="открытая книга" width="370" height="294" />
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -290,11 +295,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Издание Limited Edition
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Дизайн
                                 </p>
 
@@ -303,14 +308,14 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
                                 <img src="./images/portfolio/img-7.jpg" alt="фирменная этикетка" width="370"
                                     height="294" />
 
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -318,11 +323,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 class="photo-title">
+                            <div class="main__card-content">
+                                <h3 class="main__title-photo">
                                     Проект LAB
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Маркетинг
                                 </p>
 
@@ -331,14 +336,14 @@
                         </a>
                     </li>
 
-                    <li class="card-foto">
-                        <a class="link card-foto-link " href="">
+                    <li class="main__card-foto">
+                        <a class="link main__card-link " href="">
 
-                            <div class="overlay-portfolio-list">
+                            <div class="main__overlay-portfolio">
 
                                 <img src="./images/portfolio/img-8.jpg" alt="человек использует приложение" width="370"
                                     height="294" />
-                                <p class="overlay-portfolio">Технокряк это современная площадка распространения
+                                <p class="main__overlay-settings">Технокряк это современная площадка распространения
                                     коронавируса. Компании
                                     используют эту
                                     платформу для цифрового
@@ -346,11 +351,11 @@
                             </div>
 
 
-                            <div class="card-content">
-                                <h3 lang="en" class="photo-title">
+                            <div class="main__card-content">
+                                <h3 lang="en" class="main__title-photo">
                                     Growing Business
                                 </h3>
-                                <p class="photo-paragraph">
+                                <p class="main__paragraph-photo">
                                     Приложение
                                 </p>
 
@@ -369,55 +374,56 @@
     </main>
     <!--CONTACTS-->
     <footer class="footer-info">
-        <div class="container contact-div-container ">
+        <div class="container footer-info__contact ">
             <div>
-                <a class="link logo dark-logo logo-footer " href="./index.html">
-                    <span class="logo-color">Web</span>Studio </a>
+                <a class="link logo footer-info__logo-dark footer-info__settings-logo " href="./index.html">
+                    <span class="logo__text-style">Web</span>Studio </a>
 
 
-                <address class="contact">
-                    <ul class="list address-map">
-                        <li class="list-item-contact">
-                            <a class="link address" href="https://goo.gl/maps/Kj9o169cFubhBfax5" target="_blank"
-                                rel="noopener noreferrer">
+                <address class="address-contact">
+                    <ul class="list address-contact__address-map">
+                        <li class="address-contact__item">
+                            <a class="link link address-contact__settings" href="https://goo.gl/maps/Kj9o169cFubhBfax5"
+                                target="_blank" rel="noopener noreferrer">
                                 г. Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
-                        <li class="contact-footer list-item-contact">
-                            <a class="link footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <li class="contact-footer address-contact__item">
+                            <a class="link address-contact__settings"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li class="contact-footer list-item-contact">
-                            <a class="link footer-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <li class="contact-footer address-contact__item">
+                            <a class="link address-contact__settings" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
             <div class="join ">
-                <h3 class="join-text">Присоединяйтесь</h3>
-                <ul class="list link list-join">
-                    <li class="social-join-link-item">
-                        <a class="link-social-join" href="">
+                <h3 class="join__text">Присоединяйтесь</h3>
+                <ul class="list link ">
+                    <li class="join__link-item">
+                        <a class="join__link-social-style" href="">
                             <svg class="icon-social">
                                 <use href="./images/vector/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-join-link-item">
-                        <a class="link-social-join" href="">
+                    <li class="join__link-item">
+                        <a class="join__link-social-style" href="">
                             <svg class="icon-social">
                                 <use href="./images/vector/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-join-link-item">
-                        <a class="link-social-join" href="">
+                    <li class="join__link-item">
+                        <a class="join__link-social-style" href="">
                             <svg class="icon-social">
                                 <use href="./images/vector/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-join-link-item">
-                        <a class="link-social-join" href="">
+                    <li class="join__link-item">
+                        <a class="join__link-social-style" href="">
                             <svg class="icon-social">
                                 <use href="./images/vector/sprite.svg#icon-linkedin"></use>
                             </svg>
@@ -426,17 +432,16 @@
                 </ul>
 
             </div>
-            <div class="div-mailing">
-                <b class="text-mailing">Подпишитесь на рассылку</b>
-                <form class="mailing">
+            <div class="form-footer">
+                <b class="form-footer__text">Подпишитесь на рассылку</b>
+                <form class="form-footer__settings">
 
-                    <input type="text" id="footer-mail" name="mail" placeholder="E-mail"
-                        class="mailing-input footer-mail-label">
+                    <input type="text" id="footer-mail" name="mail" placeholder="E-mail" class="form-footer__input ">
 
 
-                    <button class="bt-mail" type="submit">Подписаться
+                    <button class="form-footer__button-mail" type="submit">Подписаться
 
-                        <svg class="vector-bt">
+                        <svg class="form-footer__button-vector">
                             <use href="./images/vector/sprite.svg#icon-icon-send">
 
                             </use>

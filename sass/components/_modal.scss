@@ -1,4 +1,4 @@
-.modal {
+.backdrop__modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,7 +11,7 @@
   border-radius: 4px;
 }
 
-.close-modal-btn {
+.backdrop__modal-close {
   background-color: var(--white-color);
   border: none;
   position: absolute;
@@ -23,8 +23,14 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  &:hover .backdrop__btn-svg,
+  &:focus .backdrop__btn-svg {
+    fill: var(--accent-color);
+    transition: var(--fill-change);
+  }
 }
-.btn-close {
+.backdrop__btn-svg {
   width: 11px;
   height: 11px;
   fill: var(--black-color);
@@ -36,12 +42,12 @@
   pointer-events: none;
 }
 
-.mailing {
+.form-footer__settings {
   display: flex;
   margin-left: 93px;
 }
 
-.text-mailing {
+.form-footer__text {
   display: block;
   margin-left: 93px;
 
@@ -56,7 +62,7 @@
   color: var(--white-color);
 }
 
-.mailing-input {
+.form-footer__input {
   background: #2f303a;
   min-width: 358px;
   height: 50px;
@@ -80,7 +86,7 @@
   }
 }
 
-.bt-mail {
+.form-footer__button-mail {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +109,7 @@
   color: #ffffff;
 }
 
-.vector-bt {
+.form-footer__button-vector {
   display: flex;
   align-items: center;
 

@@ -1,4 +1,4 @@
-.icon-mail {
+.contact-head__icon-mail {
   margin-right: 10px;
   width: 16px;
   height: 12px;
@@ -20,8 +20,8 @@
   color: var(--gray-color);
   transition: var(--color-change);
 
-  &:hover .icon-mail,
-  &:focus .icon-mail {
+  &:hover .contact-head__icon-mail,
+  &:focus .contact-head__icon-mail {
     fill: var(--accent-color);
   }
   &:hover,
@@ -30,7 +30,7 @@
   }
 }
 
-.mail-contact:not(:last-child) {
+.contact-head__mail-tel-style:not(:last-child) {
   margin-right: 50px;
 }
 

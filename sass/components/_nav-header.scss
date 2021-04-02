@@ -12,10 +12,10 @@
   }
 }
 
-.nav-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 52px;
 }
-.nav-link {
+.navigation-link {
   padding-top: 32px;
   padding-bottom: 32px;
   font-family: var(--main-font);
