@@ -905,7 +905,7 @@ textarea {
   border: 1px solid #000000;
   background-size: contain;
   border-radius: 2px;
-  background-image: url("/images/vector/vector.svg");
+  background-image: url("../images/vector/vector.svg");
   cursor: pointer;
   transition: var(--background-color-change);
 }
