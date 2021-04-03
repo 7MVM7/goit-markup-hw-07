@@ -1,4 +1,4 @@
-.main-section__hero {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.main-section__text-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -30,7 +30,7 @@
   font-family: var(--main-font);
 }
 
-.main-section__modal-btn {
+.hero__btn {
   display: inline-block;
   min-width: 200px;
   height: 50px;

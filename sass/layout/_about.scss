@@ -7,13 +7,13 @@
 .about__title {
   margin-bottom: 50px;
 }
-.about__img {
+.about__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   position: relative;
 }
 
-.about__overlay-style {
+.about__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -25,7 +25,7 @@
   width: 100%;
 }
 
-.about__overlay-title {
+.about__text {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;

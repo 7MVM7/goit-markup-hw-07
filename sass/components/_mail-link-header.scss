@@ -1,4 +1,4 @@
-.contact-head__icon-mail {
+.contact-head__icon {
   margin-right: 10px;
   width: 16px;
   height: 12px;
@@ -6,7 +6,7 @@
   transition: var(--fill-change);
 }
 
-.mail-link-head {
+.contact-head__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,8 @@
   color: var(--gray-color);
   transition: var(--color-change);
 
-  &:hover .contact-head__icon-mail,
-  &:focus .contact-head__icon-mail {
+  &:hover .contact-head__icon,
+  &:focus .contact-head__icon {
     fill: var(--accent-color);
   }
   &:hover,
@@ -30,7 +30,7 @@
   }
 }
 
-.contact-head__mail-tel-style:not(:last-child) {
+.contact-head__item:not(:last-child) {
   margin-right: 50px;
 }
 

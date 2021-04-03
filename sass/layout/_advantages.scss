@@ -10,7 +10,7 @@
   display: flex;
 }
 
-.advantages__text-title {
+.advantages__title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -20,7 +20,7 @@
   color: var(--secondary-color);
   margin-bottom: 10px;
 }
-.advantages__paragraph {
+.advantages__text {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -28,7 +28,7 @@
   color: var(--gray-color);
   letter-spacing: 0.03em;
 }
-.advantages__features {
+.advantages__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
@@ -38,7 +38,7 @@
   height: 70px;
 }
 
-.advantages__icon-style {
+.advantages__box {
   width: 270px;
   height: 120px;
   display: flex;

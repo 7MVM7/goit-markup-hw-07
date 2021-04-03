@@ -24,13 +24,13 @@
   border-radius: 50%;
   cursor: pointer;
 
-  &:hover .backdrop__btn-svg,
-  &:focus .backdrop__btn-svg {
+  &:hover .backdrop__icon,
+  &:focus .backdrop__icon {
     fill: var(--accent-color);
     transition: var(--fill-change);
   }
 }
-.backdrop__btn-svg {
+.backdrop__icon {
   width: 11px;
   height: 11px;
   fill: var(--black-color);
@@ -42,14 +42,16 @@
   pointer-events: none;
 }
 
-.form-footer__settings {
-  display: flex;
+.form-footer {
   margin-left: 93px;
+}
+
+.form__footer {
+  display: flex;
 }
 
 .form-footer__text {
   display: block;
-  margin-left: 93px;
 
   margin-bottom: 20px;
   font-family: var(--main-font);

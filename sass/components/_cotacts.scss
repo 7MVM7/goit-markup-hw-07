@@ -14,7 +14,7 @@
 }
 .address-contact__address-map,
 .address-contact__item,
-.address-contact__settings {
+.address-contact__link {
   display: flex;
   flex-direction: column;
 }
@@ -29,13 +29,19 @@
   line-height: 1.71;
   color: var(--white-color);
 }
-
-.address-contact__settings {
+.address-contact__link-style {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
+}
+.address-contact__link {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
   display: block;
 }
 
@@ -54,7 +60,7 @@
   display: flex;
 }
 
-.join__link-social-style {
+.join__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,8 +81,8 @@
   }
 }
 
-.join__link-item {
-  & .join__link-social-style {
+.join__item {
+  & .join__link {
     fill: var(--white-color);
   }
   &:not(:last-child) {

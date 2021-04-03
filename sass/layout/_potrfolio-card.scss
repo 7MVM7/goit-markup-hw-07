@@ -1,10 +1,10 @@
-.main__card-set {
+.project__list {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.main__card-foto {
+.project__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -20,11 +20,11 @@
   }
 }
 
-.main__overlay-portfolio {
+.project__window {
   position: relative;
   overflow: hidden;
 }
-.main__overlay-settings {
+.project__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,12 +47,12 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main__card-link:hover .main__overlay-settings,
-.main__card-link:focus .main__overlay-settings {
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay {
   transform: translateY(0%);
 }
 
-.main__card-content {
+.project__box {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -63,7 +63,7 @@
   border-bottom-left-radius: 1px;
   border-top: none;
 }
-.main__title-photo {
+.project__title {
   margin-bottom: 4px;
   font-family: var(--main-font);
   font-weight: 700;
@@ -71,7 +71,7 @@
   line-height: 2;
   color: var(--secondary-color);
 }
-.main__paragraph-photo {
+.project__description {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
