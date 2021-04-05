@@ -12,6 +12,13 @@
   display: block;
   margin-bottom: 20px;
 }
+
+.address-contact__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
 .address-contact__address-map,
 .address-contact__item,
 .address-contact__link {
